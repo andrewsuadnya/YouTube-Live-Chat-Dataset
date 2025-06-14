@@ -4,11 +4,11 @@ This repository contains structured datasets of YouTube **live chat messages** c
 
 ## 📦 Dataset Overview
 
-| Producer File     | Stream Title                                              | Channel              | Viewers (Est.) | Messages | File Outputs                        |
-|-------------------|-----------------------------------------------------------|----------------------|----------------|----------|-------------------------------------|
-| `producer1.log`   | IShowSpeed IRL Stream in Hong Kong 🇭🇰                    | IShowSpeed           | ±100,000       | 28,026   | `producer1_full.csv`<br>`producer1_full.json` |
-| `producer2.log`   | White House Press Briefing                                | LiveNOW from FOX     | ±20,000        | 6,686    | `producer2_full.csv`<br>`producer2_full.json` |
-| `producer3.log`   | Update on Man Executed in Arizona                         | LiveNOW from FOX     | ±9,000         | 7,460    | `producer3_full.csv`<br>`producer3_full.json` |
+| Stream Title                                              | Channel              | Viewers (Est.) | Messages | File Outputs                                  |
+|-----------------------------------------------------------|----------------------|----------------|----------|-----------------------------------------------|
+| IShowSpeed IRL Stream in Hong Kong 🇭🇰                     | IShowSpeed           | ±100,000       | 28,026   | `producer1_full.csv`<br>`producer1_full.json` |
+| White House Press Briefing                                | LiveNOW from FOX     | ±20,000        | 6,686    | `producer2_full.csv`<br>`producer2_full.json` |
+| Update on Man Executed in Arizona                         | LiveNOW from FOX     | ±9,000         | 7,460    | `producer3_full.csv`<br>`producer3_full.json` |
 
 Each file contains only **regular live chat messages** and **excludes SuperChats** to focus on organic, unpaid public interaction.
 
@@ -35,9 +35,7 @@ These datasets are suitable for a variety of research and development tasks, inc
 ## ⚙️ Technical Details
 
 - **Data Source**: YouTube Data API v3 (liveChatMessages endpoint)
-- **Polling Interval**: 5 seconds (due to API rate limiting)
-- **Delivery Mode**: Near real-time ingestion into Kafka, then exported to structured logs
-- **Excluded**: SuperChat (paid messages), deleted or moderated messages
+- **Delivery Mode**: Real-time ingestion into Kafka, then exported to structured logs
 
 ## 📝 Notes
 
