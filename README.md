@@ -6,9 +6,9 @@ This repository contains structured datasets of YouTube **live chat messages** c
 
 | Stream Title                                              | Channel              | Viewers (Est.) | Messages | File Outputs                                  |
 |-----------------------------------------------------------|----------------------|----------------|----------|-----------------------------------------------|
-| IShowSpeed IRL Stream in Hong Kong 🇭🇰                     | IShowSpeed           | ±100,000       | 28,026   | `producer1_full.csv`<br>`producer1_full.json` |
-| White House Press Briefing                                | LiveNOW from FOX     | ±20,000        | 6,686    | `producer2_full.csv`<br>`producer2_full.json` |
-| Update on Man Executed in Arizona                         | LiveNOW from FOX     | ±9,000         | 7,460    | `producer3_full.csv`<br>`producer3_full.json` |
+| IShowSpeed IRL Stream in Hong Kong 🇭🇰                     | IShowSpeed           | ±100,000       | 28,026   | `producer1.csv`<br>`producer1.json` |
+| White House Press Briefing                                | LiveNOW from FOX     | ±20,000        | 6,686    | `producer2.csv`<br>`producer2.json` |
+| Update on Man Executed in Arizona                         | LiveNOW from FOX     | ±9,000         | 7,460    | `producer3.csv`<br>`producer3.json` |
 
 Each file contains only **regular live chat messages** and **excludes SuperChats** to focus on organic, unpaid public interaction.
 
