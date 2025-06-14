@@ -4,11 +4,11 @@ This repository contains structured datasets of YouTube **live chat messages** c
 
 ## 📦 Dataset Overview
 
-| Producer File     | Stream Title                                              | Channel                | Viewers (Est.) | File Outputs                   |
-|-------------------|-----------------------------------------------------------|------------------------|----------------|-------------------------------|
-| `producer1.log`   | IShowSpeed IRL Stream in Hong Kong 🇭🇰                    | IShowSpeed             | ±100,000       | `producer1_full.csv`<br>`producer1_full.json` |
-| `producer2.log`   | White House Press Briefing                                | LiveNOW from FOX       | ±20,000        | `producer2_full.csv`<br>`producer2_full.json` |
-| `producer3.log`   | Update on Man Executed in Arizona                         | LiveNOW from FOX       | ±9,000         | `producer3_full.csv`<br>`producer3_full.json` |
+| Producer File     | Stream Title                                              | Channel              | Viewers (Est.) | Messages | File Outputs                        |
+|-------------------|-----------------------------------------------------------|----------------------|----------------|----------|-------------------------------------|
+| `producer1.log`   | IShowSpeed IRL Stream in Hong Kong 🇭🇰                    | IShowSpeed           | ±100,000       | 28,026   | `producer1_full.csv`<br>`producer1_full.json` |
+| `producer2.log`   | White House Press Briefing                                | LiveNOW from FOX     | ±20,000        | 6,686    | `producer2_full.csv`<br>`producer2_full.json` |
+| `producer3.log`   | Update on Man Executed in Arizona                         | LiveNOW from FOX     | ±9,000         | 7,460    | `producer3_full.csv`<br>`producer3_full.json` |
 
 Each file contains only **regular live chat messages** and **excludes SuperChats** to focus on organic, unpaid public interaction.
 
@@ -51,5 +51,5 @@ This dataset is provided for **academic and non-commercial use only**. Users mus
 
 ---
 
-**Maintained by**: [Andrew Suadnya]  
+**Maintained by**: Andrew Suadnya
 **Date of Collection**: March 2025
